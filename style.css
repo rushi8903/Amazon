@@ -35,8 +35,9 @@
 /* Amazon-logo */
 .nav-logo{
     height: 50px;
-    width: 170px;
+    width: 100px;
     margin: 10px;
+    flex-shrink: 0;
 }
 
 .logo{
@@ -246,7 +247,7 @@
 
 .messege{
     background-color: white;
-    height: 30px;
+    padding: 10px;
     width: 96%;
     display: flex;
     justify-content: center;
@@ -263,18 +264,20 @@
 
 .shop{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
     background-color: #cfcfcf;
 }
 
 .sticker{
     height: 400px;
-    width: 20%;
+    width: 270px;
     padding: 15px;
     background-color: #fff;
-    margin-top: 10px;
-    margin-bottom:10px ;
+    margin: 10px;  
 }
+
+
 
 .heading{
     background-color: #fff;
@@ -361,12 +364,16 @@
     justify-content: space-evenly;
     width: 100%;
     color: white;
-    height: 250px;
+    /* height: 250px; */
     border-bottom: 1px solid white;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .text{
     margin-top: 20px;
+    padding:20px;
+    width: 250px;
 }
 
 .bold{
@@ -390,17 +397,17 @@
 }
 
 .foot-panel4{
-    height: 100px;
     width: 100%;
     background-color: #1c242a;
     color: white;
     align-items: center;
+    padding: 50px 0;
 }
 .tc{
     display: flex;
     justify-content: center;
-    height: 50px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .t{
@@ -410,4 +417,5 @@
 
 .copyright{
     text-align: center;
+    padding-top: 20px;
 }
